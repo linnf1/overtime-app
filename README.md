@@ -23,4 +23,5 @@ X Add full_name method for users
  
 
 Test
+sudo service postgresql start
  $ rails s -b $IP -p $PORT
