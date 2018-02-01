@@ -16,11 +16,12 @@ X AdminUser -> STI
 
 ## UI:
 X Bootstrap -> formatting
+- Update styles in forms
 
 ##Refactor TODOS:
 X Add full_name method for users
 - Refactor user association integration test in post_spec
- 
+
 
 Test
 sudo service postgresql start
