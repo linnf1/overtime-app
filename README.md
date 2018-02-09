@@ -23,7 +23,7 @@ X Update styles in forms
 ##Refactor TODOS:
 X Add full_name method for users
 - Refactor user association integration test in post_spec
-
+- Refactor form posts/_form for admin user with status
 
 Test
 sudo service postgresql start
