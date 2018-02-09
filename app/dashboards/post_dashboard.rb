@@ -13,7 +13,7 @@ class PostDashboard < Administrate::BaseDashboard
     date: Field::DateTime.with_options(searchable: false),
     work_performed: Field::Text.with_options(searchable: true),
     created_at: Field::DateTime.with_options(searchable: false),
-    updated_at: Field::DateTime.with_options(searchable: false),
+    updated_at: Field::DateTime.with_options(searchable: true),
     status: Field::Text.with_options(searchable: true),
   }.freeze
 
