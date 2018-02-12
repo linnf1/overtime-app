@@ -22,7 +22,7 @@ X Update styles in forms
 
 ##Refactor TODOS:
 X Add full_name method for users
-- Refactor user association integration test in post_spec
+X Refactor user association integration test in post_spec
 - Refactor form posts/_form for admin user with status
 - Fix post_spec to have correct user reference and not require update
 
