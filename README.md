@@ -24,6 +24,7 @@ X Update styles in forms
 X Add full_name method for users
 - Refactor user association integration test in post_spec
 - Refactor form posts/_form for admin user with status
+- Fix post_spec to have correct user reference and not require update
 
 Test
 sudo service postgresql start
