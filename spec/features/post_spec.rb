@@ -108,7 +108,7 @@ describe 'navigate' do
       non_authorized_user = FactoryBot.create(:non_authorized_user)
       login_as(non_authorized_user, :scope => :user)
 
-      visit edit_post_path(post)
+      visit edit_post_path(@post)
 
       expect(current_path).to eq(root_path)
     end
