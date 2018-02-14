@@ -14,6 +14,7 @@ require 'rails_helper'
    	it 'cannot be created without a date and rationale' do
    		@post.date = nil
    		@post.rationale = nil
+     @post.overtime_request = nil
    		expect(@post).to_not be_valid
    	end
    end
