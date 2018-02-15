@@ -30,7 +30,11 @@
 - Refactor form posts/_form for admin user with status
 - Fix post_spec to have correct user reference and not require update
 
-***
-### Key:
-> Something finished
-- Something not yet finished
+
+
+
+```
+Key:
+>| Something finished
+o Something not yet finished
+```
