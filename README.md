@@ -5,7 +5,7 @@
 
 ## Models:
 
--_Post -> date:date rationale:text_
+_Post -> date:date rationale:text_
 _User -> Devise_
 _AdminUser -> STI_
 Auditlog
@@ -35,3 +35,4 @@ Integrate phone validation for phone attributes in User:
 #### Key:
 _Something finished_
 Something not yet finished
+
