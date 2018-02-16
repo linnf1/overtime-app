@@ -10,4 +10,3 @@ module FakeSms
     @messages
   end
 end
-
