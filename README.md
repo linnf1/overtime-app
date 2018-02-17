@@ -26,9 +26,7 @@
 
 ## Refactor:
 - Integrate phone validation for phone attributes in User:
-  >No spaces or dashes
-  >exactly 10 characters
-  >all characters must be numbers
+  >No spaces or dashes, Exactly 10 characters, All characters must be numbers
 
 
 ---

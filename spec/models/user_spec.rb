@@ -9,8 +9,9 @@ require 'rails_helper'
     it "is created" do
       expect(@user).to be_valid
     end
-    
-
+  end
+  
+    describe "validations" do 
     it "cannot be created without first_name" do
       @user.first_name = nil
       expect(@user).to_not be_valid
@@ -23,6 +24,16 @@ require 'rails_helper'
     
     it "cannot be created without phone" do
       @user.phone = nil
+      expect(@user).to_not be_valid
+    end
+    
+    it "reqs phone attr to only contain integers" do
+      @user.phone = 'mygreatstr'
+      expect(@user).to_not be_valid
+    end
+    
+    it "requires phone attr to only have 10 chars" do
+      @user.phone = '12345678901'
       expect(@user).to_not be_valid
     end
   end
