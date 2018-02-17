@@ -19,15 +19,6 @@
 - Needs to be documented if employee did not log overtime
 - Block non-admin and guest users from Admin Dashboard
 
-## UI:
-- _Bootstrap -> formatting_
-- _Icons from Font Awesome_
-- _Update styles in forms_
-
-## Refactor:
-- Integrate phone validation for phone attributes in User:
-  >No spaces or dashes, Exactly 10 characters, All characters must be numbers
-
 
 ---
 #### Key:
