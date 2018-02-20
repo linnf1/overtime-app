@@ -3,6 +3,4 @@ class AuditLogsController < ApplicationController
     @audit_logs = AuditLog.all
     authorize @audit_logs
   end
-  
-  
 end
