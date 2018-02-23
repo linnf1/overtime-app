@@ -4,11 +4,19 @@ margin-bottom: 20px;
 -webkit-border-radius: 2px;
 -moz-border-radius: 2px;
 border-radius: 2px;
-background-color: #c1f4ca;
+background-color: #f4f4f4;
 padding: 20px;
 }
 
 .homepage-block {
-  margin-top: 15px;
+  margin: 12px 42px 12px 42px;
   padding: 15px;
+  background-color: #d6eaee;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.pending-details {
+  font-weight: 600;
 }
