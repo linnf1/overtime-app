@@ -8,15 +8,15 @@
 - _Post -> date:date rationale:text_
 - _User -> Devise_
 - _AdminUser -> STI_
-- Auditlog
+- _Auditlog
 
 ## Features:
 - _Administrate admin dashboard_
-- Approval Workflow
+- _Approval Workflow
 - SMS Sending -> link to approval or overtime input
 - _Block non-admins and guest users_
 - Email summary to managers for approval
-- Needs to be documented if employee did not log overtime
+- _Needs to be documented if employee did not log overtime
 - Block non-admin and guest users from Admin Dashboard
 
 
