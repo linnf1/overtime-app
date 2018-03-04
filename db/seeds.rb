@@ -1,4 +1,4 @@
-@user = User.create!(email: "test@test.com", 
+@user = User.create!(email: "test1@test.com", 
                      password: "123456", 
                      password_confirmation: "123456", 
                      first_name: "Regular", 
@@ -8,7 +8,7 @@
 
 puts "1 User created"
 
-AdminUser.create!(email: "admintest@test.com",
+AdminUser.create!(email: "admintest1@test.com",
                   password: "123456", 
                   password_confirmation: "123456", 
                   first_name: "Admin", 
@@ -18,9 +18,9 @@ AdminUser.create!(email: "admintest@test.com",
 puts "1 Admin created"
 
 
-AuditLog.create!(user_id: User.last.id, status: 0, start_date: (Date.today - 6.days))
-AuditLog.create!(user_id: User.last.id, status: 0, start_date: (Date.today - 13.days))
-AuditLog.create!(user_id: User.last.id, status: 0, start_date: (Date.today - 20.days))
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
 
 puts "3 audit logs have been created"
 
