@@ -13,11 +13,12 @@
 ## Features:
 - _Administrate admin dashboard_
 - _Approval Workflow
-- SMS Sending -> link to approval or overtime input
+- _SMS Sending -> link to approval or overtime input
 - _Block non-admins and guest users_
 - Email summary to managers for approval
 - _Needs to be documented if employee did not log overtime
-- Block non-admin and guest users from Admin Dashboard
+- _Block non-admin and guest users from Admin Dashboard
+- Create audit log for each text message
 
 
 ---
