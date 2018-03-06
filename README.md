@@ -18,7 +18,15 @@
 - Email summary to managers for approval
 - _Needs to be documented if employee did not log overtime
 - _Block non-admin and guest users from Admin Dashboard
-- Create audit log for each text message
+- _Create audit log for each text message
+- Need to update end date when confirmed
+- Update status when rejected
+- Update buttons home page mobile
+- Update buttons to include time span, sort order
+- Remove unnecessary nav bar buttons for managers
+- Fix admin dashboard bug
+- Implement honey badger for error reporting
+- Implement new relic for keeping site alive
 
 
 ---
