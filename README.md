@@ -23,7 +23,7 @@
 - _Update status when rejected
 - _Update buttons home page mobile
 - _Update buttons to include time span, sort order
-- Remove unnecessary nav bar buttons for managers
+- _Remove unnecessary nav bar buttons for managers
 - Fix admin dashboard bug
 - Implement honey badger for error reporting
 - Implement new relic for keeping site alive
