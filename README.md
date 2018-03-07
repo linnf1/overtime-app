@@ -19,10 +19,10 @@
 - _Needs to be documented if employee did not log overtime
 - _Block non-admin and guest users from Admin Dashboard
 - _Create audit log for each text message
-- Need to update end date when confirmed
-- Update status when rejected
-- Update buttons home page mobile
-- Update buttons to include time span, sort order
+- _Need to update end date when confirmed
+- _Update status when rejected
+- _Update buttons home page mobile
+- _Update buttons to include time span, sort order
 - Remove unnecessary nav bar buttons for managers
 - Fix admin dashboard bug
 - Implement honey badger for error reporting
