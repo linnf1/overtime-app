@@ -5,10 +5,10 @@ class AuditLog < ApplicationRecord
   validates_presence_of :user_id, :status, :start_date
   
   after_initialize :set_defaults
+
   
   before_update :set_end_date, if: :confirmed? 
   
-
   private
   
   def set_end_date 
