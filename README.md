@@ -1,6 +1,10 @@
 # Overtime App
 
-**_Key requirement: Company needs documentation that salaried employees did or did not get overtime each week_**
+**_Company needs documentation that salaried employees did or did not get overtime each week_**
+
+![Screenshot](overtime.png)
+
+
 ***
 
 ## Models:
@@ -25,12 +29,6 @@
 - _Update buttons to include time span, sort order
 - _Remove unnecessary nav bar buttons for managers
 - Fix admin dashboard bug
-- Implement honey badger for error reporting
 - Implement new relic for keeping site alive
 
-
----
-#### Key:
-- _Something finished_
-- Something not yet finished
 
